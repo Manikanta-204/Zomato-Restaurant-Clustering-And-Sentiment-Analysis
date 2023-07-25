@@ -12,7 +12,7 @@ This could help in clustering the restaurants into segments. Also the data has v
 Data could be used for sentiment analysis. Also the metadata of reviewers can be used for identifying the critics in the industry.
 This project involved analyzing two datasets - restaurant data and reviews data - to gain insights into the restaurant industry and improve their performance.
 
-# EDA
+# Summary
 Performed exploratory data analysis (EDA) and merged the datasets to discover interesting insights about the restaurants that could benefit their owners.
 Applied feature engineering techniques, including natural language processing (NLP) for text data using TF-IDF to clear and vectorize critics' reviews, and sentiment analysis to extract positive, negative, and neutral sentiments and identify key areas of improvement using negative reviews.
 Conducted clustering on restaurant data using cost, rating, and cuisine list as features. Dimensionality reduction using PCA was performed to convert the data to 3 dimensions, and k-means was applied to the 3D PCA data to determine the optimal number of clusters.
@@ -20,12 +20,19 @@ Developed five restaurant clusters based on the results: Cafe, Ice Creams and De
 
 # Technologies Used
 
-Python 3.7
+Python 
+
 Pandas
+
 Scikit-learn
+
 Matplotlib
+
 Numpy
+
 Seaborn
+
 NLTK
+
 # Conclusion
 Overall, this project involved various data analysis techniques, including NLP, clustering, and dimensionality reduction, to provide insights into the restaurant industry and improve their performance. The resulting clusters could be used to help restaurant owners make data-driven decisions and improve their operations.
